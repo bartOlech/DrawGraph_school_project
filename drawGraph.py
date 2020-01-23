@@ -6,7 +6,7 @@ import networkx as nx
 
 import requests
 
-response = requests.get('http://localhost:3000/')
+response = requests.get('https://drawgraph.herokuapp.com/')
 resData = response.json()
 
 G = nx.Graph()

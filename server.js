@@ -1,6 +1,6 @@
 var express = require("express");
 var app = express();
-const port = 3000;
+const port = process.env.port || 3000;
 const fs = require('fs');
 const lineReader = require('line-reader');
 
